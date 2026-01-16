@@ -1,0 +1,120 @@
+/* =========================================
+   Global Styles
+   These styles apply to the entire page
+   Demonstrates CSS cascading behavior
+   ========================================= */
+
+* {
+    box-sizing: border-box; /* Makes box model easier to manage */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================
+   Header & Navigation Styling
+   ========================================= */
+
+header {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 20px;              /* Box model: padding */
+    margin-bottom: 20px;        /* Box model: margin */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =========================================
+   Main Content Styling
+   ========================================= */
+
+main {
+    max-width: 900px;
+    margin: auto;               /* Centers content horizontally */
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 2px solid #e5e7eb;  /* Visualizing border */
+    padding: 20px;              /* Space inside the box */
+    margin-bottom: 20px;        /* Space outside the box */
+    border-radius: 6px;
+}
+
+section h2 {
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 5px;
+}
+
+/* =========================================
+   About Section
+   ========================================= */
+
+article img {
+    display: block;
+    margin-bottom: 15px;
+    border: 3px solid #1e293b;  /* Box model visualization */
+    padding: 5px;
+}
+
+/* =========================================
+   List Styling
+   ========================================= */
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* =========================================
+   Contact Section Links
+   ========================================= */
+
+#contact a {
+    color: #1e40af;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* =========================================
+   Footer Styling
+   ========================================= */
+
+footer {
+    text-align: center;
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+}
